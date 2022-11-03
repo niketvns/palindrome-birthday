@@ -33,7 +33,7 @@ function calculatePalindromeBirthday() {
                 outPut.style.color = "#f97316";
             } else {
                 outPut.style.display = 'block'
-
+                outPut.style.color = "#f97316";
                 outPut.innerHTML = `<p>Aww! Your birthday is not a palindrome. The nearest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}. You missed it by ${countNext} day/s. 😔</p>`
             }
         }
